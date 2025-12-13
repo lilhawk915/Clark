@@ -1,0 +1,5 @@
+id,portal_url,foia_needed,notes
+mechanics_liens,https://clark.oh.publicsearch.us/,False,Recorder public search portal covers mechanics liens and related recordings.
+irs_state_tax_liens,https://clark.oh.publicsearch.us/,False,Recorder portal search for IRS and state tax lien recordings.
+medicaid_liens,https://clark.oh.publicsearch.us/,False,Recorder portal search for Medicaid-related liens.
+child_support_judgment_liens,https://clark.oh.publicsearch.us/,False,Recorder portal search for child support judgment liens.

@@ -4,6 +4,77 @@
   "portal_type": "html_listing",
   "date_range_months": 6,
   "output_directory": "outputs/clark/permits/raw",
-  "notes": "Clark County, OH publishes permit information via an HTML listing page, not weekly PDFs. Collector will scrape permit rows and follow detail links where available."
+  "notes": "Clark County, OH publishes permit information via an HTML listing page, not weekly PDFs. Collector will scrape permit rows and follow detail links where available.",
+  "distress_sources": [
+    {
+      "id": "mechanics_liens",
+      "data_owner": "Recorder",
+      "portal_url": "https://clark.oh.publicsearch.us/",
+      "foia_needed": false,
+      "notes": "Recorder public search portal covers mechanics liens and related recordings."
+    },
+    {
+      "id": "irs_state_tax_liens",
+      "data_owner": "Recorder",
+      "portal_url": "https://clark.oh.publicsearch.us/",
+      "foia_needed": false,
+      "notes": "Recorder portal search for IRS and state tax lien recordings."
+    },
+    {
+      "id": "medicaid_liens",
+      "data_owner": "Recorder",
+      "portal_url": "https://clark.oh.publicsearch.us/",
+      "foia_needed": false,
+      "notes": "Recorder portal search for Medicaid-related liens."
+    },
+    {
+      "id": "child_support_judgment_liens",
+      "data_owner": "Recorder",
+      "portal_url": "https://clark.oh.publicsearch.us/",
+      "foia_needed": false,
+      "notes": "Recorder portal search for child support judgment liens."
+    },
+    {
+      "id": "lis_pendens_foreclosures",
+      "data_owner": "Common Pleas / Clerk",
+      "portal_url": "https://clerkofcourts.clarkcountyohio.gov/eservices/home.page.2",
+      "foia_needed": false,
+      "notes": "Use the Common Pleas Clerk eServices landing page for foreclosure lis pendens filings."
+    },
+    {
+      "id": "quiet_title_suits_tax_deeds",
+      "data_owner": "Common Pleas / Clerk",
+      "portal_url": "https://clerkofcourts.clarkcountyohio.gov/eservices/home.page.2",
+      "foia_needed": false,
+      "notes": "Common Pleas Clerk eServices landing page covers quiet title and tax deed suits."
+    },
+    {
+      "id": "multiple_eviction_landlords",
+      "data_owner": "Municipal Court",
+      "portal_url": "https://clerkofcourts.municipal.co.clark.oh.us/web.nsf/CaseSearch?OpenForm=",
+      "foia_needed": false,
+      "notes": "Municipal Court case search for identifying landlords with multiple evictions."
+    },
+    {
+      "id": "probate_unknown_heir",
+      "data_owner": "Probate",
+      "portal_url": "https://probate.clarkcountyohio.gov/recordSearch.php?k=searchForm1203",
+      "foia_needed": false,
+      "notes": "Probate records search for cases with unknown heirs."
+    },
+    {
+      "id": "code_enforcement_fine_ledger",
+      "data_owner": "FOIA",
+      "portal_url": null,
+      "foia_needed": true,
+      "notes": "Code enforcement fine ledger requires a FOIA/public records request."
+    },
+    {
+      "id": "utility_shutoffs",
+      "data_owner": "FOIA",
+      "portal_url": null,
+      "foia_needed": true,
+      "notes": "Utility shutoff data requires a FOIA/public records request."
+    }
+  ]
 }
-
