@@ -1,8 +1,9 @@
 {
   "county": "Clark County, OH",
-  "report_urls": [
-    "https://example.com/clark/permits/week_01.pdf",
-    "https://example.com/clark/permits/week_02.pdf"
-  ],
-  "output_directory": "outputs/clark/permits/raw"
+  "portal_url": "https://www.clarkcountyohio.gov/283/Permits-Issued",
+  "portal_type": "html_listing",
+  "date_range_months": 6,
+  "output_directory": "outputs/clark/permits/raw",
+  "notes": "Clark County, OH publishes permit information via an HTML listing page, not weekly PDFs. Collector will scrape permit rows and follow detail links where available."
 }
+
