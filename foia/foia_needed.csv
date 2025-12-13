@@ -1,0 +1,3 @@
+county,id,data_owner,portal_url,foia_needed,notes
+"Clark County, OH",code_enforcement_fine_ledger,FOIA,,True,Code enforcement fine ledger requires a FOIA/public records request.
+"Clark County, OH",utility_shutoffs,FOIA,,True,Utility shutoff data requires a FOIA/public records request.
