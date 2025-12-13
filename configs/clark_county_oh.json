@@ -1,0 +1,8 @@
+{
+  "county": "Clark County, OH",
+  "report_urls": [
+    "https://example.com/clark/permits/week_01.pdf",
+    "https://example.com/clark/permits/week_02.pdf"
+  ],
+  "output_directory": "outputs/clark/permits/raw"
+}
