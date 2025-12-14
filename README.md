@@ -11,3 +11,13 @@ A new collector, `collectors/permit_reports.py`, handles weekly building permit 
 - A parser stub is included to eventually extract permit records with the fields: permit_number, address, issue_date, permit_type, and status. Parsed data will later be saved in a structured format (e.g., CSV or JSON).
 
 > Note: The collector intentionally avoids scraping live sites until real endpoints and selectors are confirmed.
+
+## Recorder search plans
+
+Generate a CSV plan for recorder search strategies:
+
+```
+python3 collectors/recorder_search_plan.py
+```
+
+The CSV is written to `outputs/clark/recorder/search_plan.csv`.
